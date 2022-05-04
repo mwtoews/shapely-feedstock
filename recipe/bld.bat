@@ -3,6 +3,7 @@ set LIBPATH=%LIBRARY_LIB%;%LIBPATH%
 set INCLUDE=%LIBRARY_INC%;%INCLUDE%;%RECIPE_DIR%
 
 set GEOS_LIBRARY_PATH=%LIBRARY_BIN%\geos_c.dll
+set NO_GEOS_CONFIG=1
 
 del /f shapely\speedups\_speedups.c
 del /f shapely\vectorized\_vectorized.c
