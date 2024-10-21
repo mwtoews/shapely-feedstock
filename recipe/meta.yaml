@@ -9,7 +9,7 @@ source:
   sha256: 997f6159b1484059ec239cacaa53467fd8b5564dabe186cd84ac2944663b0bf6
 
 build:
-  number: 2
+  number: 3
   script:
     - set GEOS_INCLUDE_PATH=%LIBRARY_INC%  # [win]
     - set GEOS_LIBRARY_PATH=%LIBRARY_LIB%  # [win]
